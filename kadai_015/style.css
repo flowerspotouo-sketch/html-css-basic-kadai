@@ -1,0 +1,32 @@
+html {
+ font-size:20px;
+ }
+body {
+ font-family: "Arial", "Meiryo", sans-seri;
+ text-align: center;
+}
+
+.blue{
+  color: skyblue;
+}
+
+.pink {
+  color:  rgb(255, 192, 203) ;
+}
+
+
+<style>
+   :root {
+       font-size: 20px;
+   }
+   h1 {
+       font-family: 'Josefin Sans', sans-serif; /*Googleフォントとフォールバックフォントの設定　*/
+       font-size: 2rem; /*ルート要素の2倍のサイズになる(20px * 2 =40px) */
+       letter-spacing: 0.075em;
+       text-shadow: 1px 1px 2px gray;
+       border-bottom: solid 3px rgb(115, 115, 114);
+   }
+
+#basic p span{
+    font-weight: bold;
+}
