@@ -21,6 +21,7 @@ body {
    h1 {
        font-family: 'Josefin Sans', sans-serif; /*Googleフォントとフォールバックフォントの設定　*/
        font-size: 2rem; /*ルート要素の2倍のサイズになる(20px * 2 =40px) */
+       line-height: 1.2; /*h1の文字間の設定　*/
        letter-spacing: 1.2em;
        text-shadow: 1px 1px 2px gray;
        border-bottom: solid 3px rgb(115, 115, 114);
