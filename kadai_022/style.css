@@ -41,7 +41,10 @@ main {
   border-bottom: 3px dotted rgb(236, 122, 122);
   position: relative;
 }
-/* contents h2に対してのみの設定*/
+.contents h2::before {
+  content: "●"; color: rgb(239, 111, 139);
+}
+/* ↑contents h2に対してのみの設定*/
 
 .contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
